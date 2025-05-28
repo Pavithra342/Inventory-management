@@ -7,3 +7,4 @@ from .models import *
 @admin.register(Desktops, Laptops, Mobiles)
 class ViewAdmin(ImportExportModelAdmin):
     exclude = ('id', )
+    
