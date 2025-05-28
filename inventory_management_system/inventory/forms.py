@@ -17,3 +17,7 @@ class MobileForm(forms.ModelForm):
     class Meta:
         model = Mobiles
         fields = ('type', 'price', 'status', 'issues')
+class Mobile(forms.ModelForm):
+    class meta:
+        model = phones
+        fields = ('type', 'price', 'status', 'issues')
